@@ -51,6 +51,7 @@
 
 - [NextJS](https://nextjs.org/)
 - [Tailwind](https://tailwindcss.com/)
+- [Firebase](https://firebase.google.com/)
   <!-- - [Storybook](https://storybook.js.org/) -->
   <!-- - [API](CHANGE_ME) -->
 
