@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       mon: ["Montserrat", "sans-serif"],
+      not: ["Noto Sans", "sans-serif"],
       // heb: ["Heebo", "sans-serif"],
       // pop: ["Poppins", "sans-serif"],
     },
@@ -18,18 +19,21 @@ module.exports = {
         DEFAULT: "#000000",
       },
       gray: {
+        cBDBDBD: "#BDBDBD",
+        c333333: "#333333",
+        c4F4F4F: "#4F4F4F",
         // cA9A9A9: "#A9A9A9",
         // cE0E0E0: "#E0E0E0",
         // cF2F2F2: "#F2F2F2",
         // c333333: "#333333",
         // c4F4F4F: "#4F4F4F",
         // c828282: "#828282",
-        // cBDBDBD: "#BDBDBD",
       },
       red: {
-        // cEB5757: "#EB5757",
+        cEB5757: "#EB5757",
       },
       green: {
+        c3DB46D: "#3DB46D",
         // c27AE60: "#27AE60",
       },
       blue: {
@@ -40,7 +44,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: { visibility: ["group-hover"] },
   },
   plugins: [],
 }
