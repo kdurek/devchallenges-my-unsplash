@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./pages/**/*.js", "./components/**/*.js"],
+  purge: ["./src/pages/**/*.js", "./src/components/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -44,7 +44,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: { visibility: ["group-hover"] },
+    extend: {},
   },
   plugins: [],
 }
