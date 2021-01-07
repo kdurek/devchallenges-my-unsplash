@@ -5,7 +5,7 @@ const Input = ({ label, ...props }) => {
         {label}
       </label>
       <input
-        className="p-4 border rounded-xl placeholder-gray-cBDBDBD focus:outline-none"
+        className="p-4 border border-gray-cBDBDBD focus:border-black rounded-xl placeholder-gray-cBDBDBD focus:outline-none"
         {...props}
       />
     </div>

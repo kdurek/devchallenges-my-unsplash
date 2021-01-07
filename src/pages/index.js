@@ -38,7 +38,6 @@ import Layout from "../components/Layout"
 import DeletePhoto from "../components/Modal/DeletePhoto"
 
 export default function Home({ firebase }) {
-  const [isDeletePhotoOpen, setIsDeletePhotoOpen] = useState(false)
   const [photoToDelete, setPhotoToDelete] = useState(undefined)
   const [photos, setPhotos] = useState([])
   const [filter, setFilter] = useState("")
@@ -70,6 +69,7 @@ export default function Home({ firebase }) {
       />
       {photos
         .filter((photo) => photo.label.toLowerCase().includes(filter))
+        .sort((a, b) => b.timestamp - a.timestamp)
         .map((photo) => (
           <Card
             key={photo.id}

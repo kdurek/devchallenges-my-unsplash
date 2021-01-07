@@ -41,7 +41,7 @@ const Layout = ({ firebase, setFilter, children }) => {
       </header>
       <main
         style={{ columnCount: 3, columnGap: 48 }}
-        className="mt-12 min-w-screen"
+        className="mt-12 min-h-screen"
       >
         {children}
       </main>

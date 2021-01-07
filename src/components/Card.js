@@ -7,7 +7,7 @@ const Card = ({ photo, setPhotoToDelete }) => {
         <div className="absolute w-full h-full top-0 left-0 rounded-xl bg-black transition-all duration-500 opacity-0 group-hover:opacity-40 "></div>
         <button
           onClick={() => setPhotoToDelete(photo)}
-          className={`p-2 self-end rounded-xl border font-mon font-medium text-xs text-red-cEB5757 focus:outline-none z-40 transition-all opacity-0 group-hover:opacity-100`}
+          className={`p-2 self-end rounded-xl border font-mon font-medium text-xs text-red-cEB5757 focus:outline-none z-40 transition-all transform hover:scale-110 focus:scale-90 opacity-0 group-hover:opacity-100`}
         >
           delete
         </button>

@@ -42,10 +42,10 @@
 
 - [x] I can see a list of photos in the masonry layout that I have added
 - [x] I can add a new photo to the list - the new photo should be on top of the list
-- [ ] I can search for photos by label
-- [ ] When I hover a photo, I can see a label and a delete button
-- [ ] I can delete images
-- [ ] When I delete an image, I can enter my password (optional)
+- [x] I can search for photos by label
+- [x] When I hover a photo, I can see a label and a delete button
+- [x] I can delete images
+- [x] When I delete an image, I can enter my password (optional) (Added simillar functionality)
 
 ### Built With
 
@@ -73,4 +73,12 @@ $ yarn
 # Run the app
 $ npm run dev
 yarn dev
+```
+
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=""
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=""
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=""
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=""
+NEXT_PUBLIC_FIREBASE_APP_ID=""
 ```

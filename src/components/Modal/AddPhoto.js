@@ -11,7 +11,7 @@ const AddPhoto = ({ firebase, open, setOpen }) => {
   const db = firebase.firestore().collection("my-unsplash")
 
   const handleSumbit = async () => {
-    const newPhoto = { label, url }
+    const newPhoto = { label, url, timestamp: new Date() }
     db.doc().set(newPhoto)
     setOpen(false)
     setLabel("")
